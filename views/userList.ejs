@@ -1,0 +1,8 @@
+<ul>
+  <% for (let i = 0; i < data.length; i++) { %>
+  <li><%= data.text %> <%= data[i].text %></li>
+  <li><%= data.user %> <%= data[i].user %></li>
+  <li><%= data.added %> <%= data[i].added %></li>
+  <hr />
+  <% } %>
+</ul>
